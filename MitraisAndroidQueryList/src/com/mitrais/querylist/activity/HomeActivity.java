@@ -31,7 +31,7 @@ public class HomeActivity extends FragmentActivity {
 	protected AQuery aq;
 	private ViewPager viewPager;
 	private FragmentStatePagerAdapter adapter; 
-	private boolean showArticle;
+	private boolean showArticle; 
 	
 	String[] toVisit={
 	        "http://www.jdepths.com",
