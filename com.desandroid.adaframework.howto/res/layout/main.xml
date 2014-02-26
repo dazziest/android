@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:padding="10dp">
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <Button android:id="@+id/executeDependenciesDemo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:onClick="onCLick"
+		        android:text="Dependencies Demo"/>
+		    
+		    <Button android:id="@+id/executeInheritanceDemo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:onClick="onCLick"
+		        android:text="Inheritance Demo"/>
+		    
+		    <Button android:id="@+id/executeRelationshipsDemo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:onClick="onCLick"
+		        android:text="Relationships Demo"/>
+		    
+		    <Button android:id="@+id/executeListViewDemo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:onClick="onCLick"
+		        android:text="ListView Demo"/>
+		   
+		     <Button android:id="@+id/executeAsyncTaskDemo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:onClick="onCLick"
+		        android:text="AsyncTask Demo"/>
+		     
+		    <Button android:id="@+id/executePerformanceDemo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:onClick="onCLick"
+		        android:text="Perfomance Demo"/>
+		
+		    <Button android:id="@+id/executeDatabindingDemo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:onClick="onCLick"
+		        android:text="Databinding Demo"/>
+		    
+		    <Button android:id="@+id/executeValidationDemo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:onClick="onCLick"
+		        android:text="Validation Demo"/>
+		    
+		    <Button android:id="@+id/executeSearchDemo"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:onClick="onCLick"
+		        android:text="Search Demo"/>
+            
+        </LinearLayout>
+    </ScrollView>
+    
+    
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, mainActivity!</string>
+    <string name="app_name">ADA Framework v1.4 - How To</string>
+
+    <string name="EmployeeName">Name:</string>
+    <string name="EmployeeSurname">Surname:</string>
+    <string name="EmployeeEmail">Email:</string>
+    <string name="EmployeeAge">Ages:</string>
+    <string name="EmployeeActive">Active:</string>
+    
+    <string name="DatabindCommand">Bind</string>
+    <string name="ValidateCommand">Validate</string>
+    
+        
+    <string name="validiomMessageEmployeeNameRequired">The Name field is required.</string>
+    <string name="validiomMessageEmployeeNameFormat">The Name field format is not correct [a-z].</string>
+    <string name="validiomMessageEmployeeEmailFormat">The EMail field format is not correct.</string>
+    <string name="validiomMessageEmployeeSurnameRequired">The Surname field is required.</string>
+    <string name="validiomMessageEmployeeAgeRequired">The Ages field is required.</string>
+    <string name="validiomMessageEmployeeAgeRange">The value of Age filed must be between 1 and 99.</string>
+</resources>
